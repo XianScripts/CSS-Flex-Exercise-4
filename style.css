@@ -10,7 +10,32 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
 }
+
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+  flex-wrap: wrap;
+  text-align: center;
+  
+
+
+}
+
+.ip1, .ip2, .ip3, .ip4 {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+
 
 /* do not edit this footer */
 .footer {
@@ -19,8 +44,5 @@ img {
   left: 0;
   right: 0;
   height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background: #eee;
 }
